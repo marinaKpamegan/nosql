@@ -12,7 +12,7 @@ Contains instructions to install and use `redis`, `mongo` and `OrientDB`, and us
 Remember to use the `Anaconda Powershell` prompt at the root of your project.
 
 ```
-conda create -n nosql python=3.7
+conda create -n nosql python=3.11
 conda activate nosql
 conda install -c anaconda mongo-tools
 pip install jupyter jupyterlab redis pymongo
@@ -44,8 +44,3 @@ In a separate command line prompt:
 docker run -it --rm --name some-orientdb -p 2424:2424 -p 2480:2480 -e ORIENTDB_ROOT_PASSWORD=root orientdb:2.2
 ```
 
-## Contributions
-
-A huge thanks to Damien SIMONIN FEUGAS for a huge part of those NoSQL tutorials which were translated into Jupyter notebooks !
-"# nosql" 
-# nosql
